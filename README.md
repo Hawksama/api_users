@@ -4,7 +4,7 @@
 
 Wordpress plugin for fetching and displaying users from REST API.
 
-## Info
+## Informations
 
 On activation, using hooks and registrations method WordPress provided, this plugin adds multiple functionalities.
 Such as:
@@ -27,17 +27,28 @@ Such as:
 Because this plugin was focused mainly on the backend, the frontend user table has been created dynamically using jQuery DataTables (assets provided). No external CSS code has been written because I do not see the point of doing this, looks decent.
 The details container is added using AJAX.
 
-## Automated Tests
-An automated test has been made and using PHPUnit and testing the constructor from carabus.php. 1 test, 1 assertion.
-
-## Settings
-Under admin, under the menu, you can find the plugin name (Carabus).
-
 ## Requirements
 
 * PHP 7.3+
 * PHPUNIT 7
 * Wordpress 5.2+
+
+## Install
+Go to the plugin folder located in wp-content and open the terminal. 
+Type this commands:
+1. mkdir carabus
+2. cd carabus/
+3. git init
+4. git remote add origin https://github.com/Hawksama/api_users.git
+5. git fetch --all
+6. composer update
+Finish.
+
+## Settings
+Under admin, under the menu, you can find the plugin name (Carabus).
+
+## Automated Tests
+An automated test has been made and using PHPUnit and testing the constructor from carabus.php. 1 test, 1 assertion.
 
 ## License
 
