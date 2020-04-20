@@ -1,0 +1,20 @@
+{
+    "name": "carabus/carabus",
+    "description": "Inpsyde Carabus Plugin for review",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Carabus Manuel Alexandru",
+            "email": "manue971@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0",
+        "phpunit/phpunit": "^7"
+    },
+    "require-dev": {
+        "brain/monkey": "2.*"
+    }
+}
