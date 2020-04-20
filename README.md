@@ -4,23 +4,25 @@
 
 Wordpress plugin for fetching and displaying users from REST API.
 
+## Info
+
 On activation, using hooks and registrations method WordPress provided, this plugin adds multiple functionalities.
 Such as:
 
-* 1. Provides an administration field for the REST API link on the admin page. On installation, a default link is set. The plugins admin template includes the WordPress Settings API.
+1. Provides an administration field for the REST API link on the admin page. On installation, a default link is set. The plugins admin template includes the WordPress Settings API.
 
-* 2. Creates an endpoint where we can find the plugin page:
-* * **/carabus** where can be found in your WordPress installation. EX: www.mywebsite.domain/carabus
+2. Creates an endpoint where we can find the plugin page:
+* **/carabus** where can be found in your WordPress installation. EX: www.mywebsite.domain/carabus
 
-* 3. Ands two REST API endpoints:
-* * **/wp-json/carabus/plugin/users** list of the users from the API link *you* provide. USE: www.mywebsite.domain/wp-json/carabus/plugin/users
-* * **/wp-json/carabus/plugin/user?id=** full details of one particullary user. This is triggered when you clicked on a row on the user table. EX: www.mywebsite.domain/wp-json/carabus/plugin/user?id=1
+3. Ands two REST API endpoints:
+- **/wp-json/carabus/plugin/users** list of the users from the API link *you* provide. USE: www.mywebsite.domain/wp-json/carabus/plugin/users
+- **/wp-json/carabus/plugin/user?id=** full details of one particullary user. This is triggered when you clicked on a row on the user table. EX: www.mywebsite.domain/wp-json/carabus/plugin/user?id=1
 
-* 4. HTTP Caching. To avoid multiple API requests send, the API response is saved in a database for 24h under _transient_users_api using WordPress transient function for storing data temporarily in the database.
+4. HTTP Caching. To avoid multiple API requests send, the API response is saved in a database for 24h under _transient_users_api using WordPress transient function for storing data temporarily in the database.
 
-* 5. Plugin Translation for various words. Languages provided: US and DE. 
+5. Plugin Translation for various words. Languages provided: US and DE. 
 
-* 6. The plugin *DOES* not includes his assets on other pages other than his own.
+6. The plugin *DOES* not includes his assets on other pages other than his own.
 
 Because this plugin was focused mainly on the backend, the frontend user table has been created dynamically using jQuery DataTables (assets provided). No external CSS code has been written because I do not see the point of doing this, looks decent.
 The details container is added using AJAX.
