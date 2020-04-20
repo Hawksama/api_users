@@ -43,6 +43,10 @@ Under admin, under the menu, you can find the plugin name (Carabus).
 
 This plugin is open source and released under the GNU license. See LICENSE file for more info.
 
+## Develop Enviroment
+
+This plugin has being developed under WordPress TwentyTwenty theme. Other themes, can have the container fullwidth because the 'alignwide' class used on container is not defined.
+
 ## Who am I
 
 Hi, I'm a Romanian Developer with a Bachelor's Degree in Computer Science (English language) and with 4 years of WEB Development.
