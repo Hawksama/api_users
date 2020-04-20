@@ -42,6 +42,7 @@ Type this commands:
 4. git remote add origin https://github.com/Hawksama/api_users.git
 5. git fetch --all
 6. composer update
+
 Finish.
 
 ## Settings
