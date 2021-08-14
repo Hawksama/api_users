@@ -58,13 +58,3 @@ This plugin is open source and released under the GNU license. See LICENSE file 
 ## Develop Enviroment
 
 This plugin has being developed under WordPress TwentyTwenty theme. Other themes, can have the container fullwidth because the 'alignwide' class used on container is not defined.
-
-## Who am I
-
-Hi, I'm a Romanian Developer with a Bachelor's Degree in Computer Science (English language) and with 4 years of WEB Development.
-
-I've been working with Magento 2 for the past 18 months (mainly on frontend), and with Wordpress for the last 3 years.
-
-Anything more about me? Let's get in touch.
-
-Contact: manue971@icloud.com OR manue97132@gmail.com
